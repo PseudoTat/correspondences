@@ -22,12 +22,12 @@ const authorList =
 
 const authorsChoices = await checkbox({
   message: 'select author(s)',
-  choices: [...authorList, { value: 'ALL' }],
+  choices: authorList,
 });
 
 const planetsChoices = await checkbox({
   message: 'select planet(s)',
-  choices: [...planets, { value: 'ALL' }],
+  choices: planets,
 });
 
 console.log('RESULTS:');
