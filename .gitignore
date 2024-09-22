@@ -1,3 +1,6 @@
 # DIRs
 __pycache__/
 .venv/
+
+# FILEs
+.DS_Store
