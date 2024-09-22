@@ -3,17 +3,22 @@ import PySimpleGUI as sg
 
 
 # SG ###########################################################################
-txt = sg.Text
 tab = sg.Tab
+txt = lambda x: sg.Text(
+  x,
+  auto_size_text=True,
+  justification='left',
+  # relief='raised',
+)
 tbg = lambda x: sg.TabGroup(
   x,
   expand_x=True,
 )
-col = lambda x: sg.Column(
+col = lambda x, expand_x=False: sg.Column(
   x,
+  expand_x=expand_x,
   justification='left',
   element_justification='left',
-  expand_x=True
 )
 out = lambda txt: sg.Input(
   txt,
@@ -162,31 +167,38 @@ materia_sat_col = [
 tab_group_incense = [
   tab('Moon',    [[
     col(incense_author_col()),
-    col(incense_mon_col),
+    col(incense_mon_col, True),
+    # sg.Push(),
   ]]),
   tab('Mercury', [[
     col(incense_author_col()),
-    col(incense_wed_col),
+    col(incense_wed_col, True),
+    # sg.Push(),
   ]]),
   tab('Venus',   [[
     col(incense_author_col()),
-    col(incense_fri_col),
+    col(incense_fri_col, True),
+    # sg.Push(),
   ]]),
   tab('Sun',     [[
     col(incense_author_col()),
-    col(incense_sun_col),
+    col(incense_sun_col, True),
+    # sg.Push(),
   ]]),
   tab('Mars',    [[
     col(incense_author_col()),
-    col(incense_tue_col),
+    col(incense_tue_col, True),
+    # sg.Push(),
   ]]),
   tab('Jupiter', [[
     col(incense_author_col()),
-    col(incense_thu_col),
+    col(incense_thu_col, True),
+    # sg.Push(),
   ]]),
   tab('Saturn',  [[
     col(incense_author_col()),
-    col(incense_sat_col),
+    col(incense_sat_col, True),
+    # sg.Push(),
   ]]),
 ]
 
@@ -195,30 +207,37 @@ tab_group_incense = [
 tab_group_materia = [
   tab('Moon',    [[
     col(materia_author_col()),
-    col(materia_mon_col),
+    col(materia_mon_col, True),
+    # sg.Push(),
   ]]),
   tab('Mercury', [[
     col(materia_author_col()),
-    col(materia_wed_col),
+    col(materia_wed_col, True),
+    # sg.Push(),
   ]]),
   tab('Venus',   [[
     col(materia_author_col()),
-    col(materia_fri_col),
+    col(materia_fri_col, True),
+    # sg.Push(),
   ]]),
   tab('Sun',     [[
     col(materia_author_col()),
-    col(materia_sun_col),
+    col(materia_sun_col, True),
+    # sg.Push(),
   ]]),
   tab('Mars',    [[
     col(materia_author_col()),
-    col(materia_tue_col),
+    col(materia_tue_col, True),
+    # sg.Push(),
   ]]),
   tab('Jupiter', [[
     col(materia_author_col()),
-    col(materia_thu_col),
+    col(materia_thu_col, True),
+    # sg.Push(),
   ]]),
   tab('Saturn',  [[
     col(materia_author_col()),
-    col(materia_sat_col),
+    col(materia_sat_col, True),
+    # sg.Push(),
   ]]),
 ]
