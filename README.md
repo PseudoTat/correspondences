@@ -14,4 +14,4 @@ https://docs.github.com/en/repositories/creating-and-managing-repositories/cloni
 ## Run
 
 
-on MacOS, from the "Finder", should be able to double-click "correspondences" in the "bin" directory of the project path
+on MacOS (x86 NOT xARM), from the "Finder", should be able to double-click "correspondences" in the "bin" directory of the project path
