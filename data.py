@@ -8,7 +8,6 @@ txt = lambda x: sg.Text(
   x,
   auto_size_text=True,
   justification='left',
-  # relief='raised',
 )
 tbg = lambda x: sg.TabGroup(
   x,
@@ -168,37 +167,30 @@ tab_group_incense = [
   tab('Moon',    [[
     col(incense_author_col()),
     col(incense_mon_col, True),
-    # sg.Push(),
   ]]),
   tab('Mercury', [[
     col(incense_author_col()),
     col(incense_wed_col, True),
-    # sg.Push(),
   ]]),
   tab('Venus',   [[
     col(incense_author_col()),
     col(incense_fri_col, True),
-    # sg.Push(),
   ]]),
   tab('Sun',     [[
     col(incense_author_col()),
     col(incense_sun_col, True),
-    # sg.Push(),
   ]]),
   tab('Mars',    [[
     col(incense_author_col()),
     col(incense_tue_col, True),
-    # sg.Push(),
   ]]),
   tab('Jupiter', [[
     col(incense_author_col()),
     col(incense_thu_col, True),
-    # sg.Push(),
   ]]),
   tab('Saturn',  [[
     col(incense_author_col()),
     col(incense_sat_col, True),
-    # sg.Push(),
   ]]),
 ]
 
@@ -208,36 +200,29 @@ tab_group_materia = [
   tab('Moon',    [[
     col(materia_author_col()),
     col(materia_mon_col, True),
-    # sg.Push(),
   ]]),
   tab('Mercury', [[
     col(materia_author_col()),
     col(materia_wed_col, True),
-    # sg.Push(),
   ]]),
   tab('Venus',   [[
     col(materia_author_col()),
     col(materia_fri_col, True),
-    # sg.Push(),
   ]]),
   tab('Sun',     [[
     col(materia_author_col()),
     col(materia_sun_col, True),
-    # sg.Push(),
   ]]),
   tab('Mars',    [[
     col(materia_author_col()),
     col(materia_tue_col, True),
-    # sg.Push(),
   ]]),
   tab('Jupiter', [[
     col(materia_author_col()),
     col(materia_thu_col, True),
-    # sg.Push(),
   ]]),
   tab('Saturn',  [[
     col(materia_author_col()),
     col(materia_sat_col, True),
-    # sg.Push(),
   ]]),
 ]

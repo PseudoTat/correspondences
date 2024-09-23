@@ -1,4 +1,5 @@
 # DIRs
+img/
 __pycache__/
 .venv/
 
