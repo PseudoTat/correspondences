@@ -1,7 +1,7 @@
 # DIRs
 img/
-__pycache__/
 .venv/
+__pycache__/
 
 # FILEs
 .DS_Store
