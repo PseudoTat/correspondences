@@ -1,10 +1,10 @@
 [build-system]
-requires = ['hatchling']
-build-backend = 'hatchling.build'
+requires = ["hatchling"]
+build-backend = "hatchling.build"
 
 [project]
 name = 'correspondences'
-version = '0.1'
+version = '0.0.1'
 description = 'incense & materia planetary correspdonces'
 readme = 'README.md'
 requires-python = '>=3.9'
@@ -32,4 +32,4 @@ Issues = 'https://github.com/PseudoTat/correspondences/issues'
 Source = 'https://github.com/correspondences/src'
 
 [tool.hatch.version]
-path = 'src/correspondences/correspondences.py'
+path = "correspondences/__init__.py"
