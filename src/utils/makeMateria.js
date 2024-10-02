@@ -5,28 +5,28 @@ const materiaCols = [
 
 const makeMateriaRows = materiaArr =>([
   {
-		id: 1,
-		source: 'Al-Biruni',
-		materia: materiaArr[0],
-	},
+    id: 1,
+    source: 'Al-Biruni',
+    materia: materiaArr[0],
+  },
   {
-		id: 2,
-		source: 'William Lily',
-		materia: materiaArr[1],
-	},
+    id: 2,
+    source: 'William Lily',
+    materia: materiaArr[1],
+  },
   {
-		id: 3,
-		source: 'Giorgio Anselmi',
-		materia: materiaArr[2],
-	},
+    id: 3,
+    source: 'Giorgio Anselmi',
+    materia: materiaArr[2],
+  },
   {
-		id: 4,
-		source: 'William Ramesey',
-		materia: materiaArr[3],
-	},
+    id: 4,
+    source: 'William Ramesey',
+    materia: materiaArr[3],
+  },
 ]);
 
 export {
-	materiaCols,
-	makeMateriaRows,
+  materiaCols,
+  makeMateriaRows,
 };

@@ -13,9 +13,9 @@ const theme = createTheme({ colorSchemes: { dark: true }});
 // MAIN
 root.render(
   <StrictMode>
-		<ThemeProvider theme={theme}>
-			<CssBaseline />
-			<App />
-		</ThemeProvider>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <App />
+    </ThemeProvider>
   </StrictMode>
 );

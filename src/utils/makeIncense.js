@@ -4,14 +4,14 @@ const incenseCols = [
 ];
 
 const makeIncenseRows = incenseArr => ([
-  { id: 1, source: 'PGM',					  incense: incenseArr[0] },
-  { id: 2, source: 'Abano',				  incense: incenseArr[1] },
-  { id: 3, source: 'Agrippa',			  incense: incenseArr[2] },
+  { id: 1, source: 'PGM',           incense: incenseArr[0] },
+  { id: 2, source: 'Abano',         incense: incenseArr[1] },
+  { id: 3, source: 'Agrippa',       incense: incenseArr[2] },
   { id: 4, source: 'Liber Juratus', incense: incenseArr[3] },
-  { id: 5, source: 'VK Solomon',	  incense: incenseArr[4] },
+  { id: 5, source: 'VK Solomon',    incense: incenseArr[4] },
 ]);
 
 export {
-	incenseCols,
-	makeIncenseRows,
+  incenseCols,
+  makeIncenseRows,
 };
