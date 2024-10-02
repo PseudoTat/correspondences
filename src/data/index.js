@@ -1,40 +1,40 @@
 const planets = [
-	'Moon',
-	'Mercury',
-	'Venus',
-	'Sun',
-	'Mars',
-	'Jupiter',
-	'Saturn',
+  'Moon',
+  'Mercury',
+  'Venus',
+  'Sun',
+  'Mars',
+  'Jupiter',
+  'Saturn',
 ];
 
 // MOON
 const moonIncenseArr = [
-	'myrrh',
-	'aloes',
-	'myrtle',
-	'myrtle',
-	'powdered loadstone',
+  'myrrh',
+  'aloes',
+  'myrtle',
+  'myrtle',
+  'powdered loadstone',
 ];
 
 const moonMateriaArr = [
-	'glass, emerald, moonstone, crystal, any white stone, anything made from silver',
-	'silver, selenite, all soft stones, crystals',
-	'silver',
-	'silver',
+  'glass, emerald, moonstone, crystal, any white stone, anything made from silver',
+  'silver, selenite, all soft stones, crystals',
+  'silver',
+  'silver',
 ];
 
 // MERCURY
 const mercuryIncenseArr = [
-	'cassia',
-	'mastic',
-	'cinnamon',
-	'cinnamon',
-	'juniper',
+  'cassia',
+  'mastic',
+  'cinnamon',
+  'cinnamon',
+  'juniper',
 ];
 
 const mercuryMateriaArr = [
-	'amber, coral, any green stone, any coin struck with a name or number',
+  'amber, coral, any green stone, any coin struck with a name or number',
   'quicksilver, milestone, topaz, vitriol, stones of mixed colors',
   'congealed quicksilver, silver',
   'quicksilver, books, parchment, paper',
@@ -42,7 +42,7 @@ const mercuryMateriaArr = [
 
 // VENUS
 const venusIncenseArr = [
-	'spikenard',
+  'spikenard',
   'pepperwort',
   'saffron',
   'saffron',
@@ -58,7 +58,7 @@ const venusMateriaArr = [
 
 // SUN
 const sunIncenseArr = [
-	'frankincense',
+  'frankincense',
   'red sandalwood',
   'mastic',
   'mastic',
@@ -121,19 +121,19 @@ const saturnMateriaArr = [
 ];
 
 export {
-	planets,
-	moonIncenseArr,
-	moonMateriaArr,
-	mercuryIncenseArr,
-	mercuryMateriaArr,
-	venusIncenseArr,
-	venusMateriaArr,
-	sunIncenseArr,
-	sunMateriaArr,
-	marsIncenseArr,
-	marsMateriaArr,
-	jupiterIncenseArr,
-	jupiterMateriaArr,
-	saturnIncenseArr,
-	saturnMateriaArr,
+  planets,
+  moonIncenseArr,
+  moonMateriaArr,
+  mercuryIncenseArr,
+  mercuryMateriaArr,
+  venusIncenseArr,
+  venusMateriaArr,
+  sunIncenseArr,
+  sunMateriaArr,
+  marsIncenseArr,
+  marsMateriaArr,
+  jupiterIncenseArr,
+  jupiterMateriaArr,
+  saturnIncenseArr,
+  saturnMateriaArr,
 };
