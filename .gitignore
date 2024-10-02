@@ -8,3 +8,4 @@ node_modules/
 # FILEs
 .DS_Store
 build.zip
+package-lock.json
