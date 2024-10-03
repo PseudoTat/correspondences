@@ -16,4 +16,7 @@ https://nodejs.org/en/download/prebuilt-installer/current
 `npm install`
 
 
-3. `npm run start`
+then,
+
+
+`npm run start`
