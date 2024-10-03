@@ -14,10 +14,8 @@ import {
 } from '../data';
 
 export default function Planets() {
-  // FUNC
   const [value, setValue] = useState(0);
   const handleChange = (e, newValue) => setValue(newValue);
-
 
   return (
     <TabContext value={value}>
