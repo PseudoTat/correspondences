@@ -10,13 +10,16 @@
 https://nodejs.org/en/download/prebuilt-installer/current
 
 
-2. From this project's directory:
+2. In a terminal, from this project's directory:
 
 
 `npm install`
 
 
-then,
+## RUN
+
+
+In a terminal, from this project's directory:
 
 
 `npm run start`
