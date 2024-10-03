@@ -120,6 +120,37 @@ const saturnMateriaArr = [
   'black cloth, wood (esp. cedar), lead, dark stones, clay or earthenware',
 ];
 
+const planetMap = new Map([
+  ['Moon', {
+    incense: moonIncenseArr,
+    materia: moonMateriaArr,
+  }],
+  ['Mercury', {
+    incense: mercuryIncenseArr,
+    materia: mercuryMateriaArr,
+  }],
+  ['Venus', {
+    incense: venusIncenseArr,
+    materia: venusMateriaArr,
+  }],
+  ['Sun', {
+    incense: sunIncenseArr,
+    materia: sunMateriaArr,
+  }],
+  ['Mars', {
+    incense: marsIncenseArr,
+    materia: marsMateriaArr,
+  }],
+  ['Jupiter', {
+    incense: jupiterIncenseArr,
+    materia: jupiterMateriaArr,
+  }],
+  ['Saturn', {
+    incense: saturnIncenseArr,
+    materia: saturnMateriaArr,
+  }],
+]);
+
 export {
   planets,
   moonIncenseArr,
@@ -136,4 +167,5 @@ export {
   jupiterMateriaArr,
   saturnIncenseArr,
   saturnMateriaArr,
+  planetMap,
 };
