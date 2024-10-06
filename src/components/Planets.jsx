@@ -29,7 +29,7 @@ export default function Planets() {
         ))}
       </TabList>
       {planets.map((planet, i) => (
-        <TabPanel key={i} value={i}>
+        <TabPanel value={i} key={i}>
           <Planet
             incenseArr={planetMap.get(planet).incense}
             materiaArr={planetMap.get(planet).materia}

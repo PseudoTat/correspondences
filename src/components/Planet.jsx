@@ -9,8 +9,12 @@ import {
 import { DataGrid } from '@mui/x-data-grid';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 // IMPs - local
-import { incenseCols, makeIncenseRows } from '../utils/makeIncense';
-import { materiaCols, makeMateriaRows } from '../utils/makeMateria';
+import {
+  incenseCols,
+  materiaCols,
+  makeIncenseRows,
+  makeMateriaRows,
+} from '../utils';
 
 // MAIN
 export default function Planet({ incenseArr, materiaArr }) {

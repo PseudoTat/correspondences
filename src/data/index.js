@@ -153,19 +153,5 @@ const planetMap = new Map([
 
 export {
   planets,
-  moonIncenseArr,
-  moonMateriaArr,
-  mercuryIncenseArr,
-  mercuryMateriaArr,
-  venusIncenseArr,
-  venusMateriaArr,
-  sunIncenseArr,
-  sunMateriaArr,
-  marsIncenseArr,
-  marsMateriaArr,
-  jupiterIncenseArr,
-  jupiterMateriaArr,
-  saturnIncenseArr,
-  saturnMateriaArr,
   planetMap,
 };
