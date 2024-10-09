@@ -1,3 +1,4 @@
+// PLANETS /////////////////////////////////////////////////////////////////////
 const planets = [
   'Moon',
   'Mercury',
@@ -120,6 +121,8 @@ const saturnMateriaArr = [
   'black cloth, wood (esp. cedar), lead, dark stones, clay or earthenware',
 ];
 
+
+// PLANET MAP //////////////////////////////////////////////////////////////////
 const planetMap = new Map([
   ['Moon', {
     incense: moonIncenseArr,
@@ -151,6 +154,8 @@ const planetMap = new Map([
   }],
 ]);
 
+
+// EXPs ////////////////////////////////////////////////////////////////////////
 export {
   planets,
   planetMap,
