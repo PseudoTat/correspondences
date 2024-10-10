@@ -16,6 +16,25 @@ import {
   makeMateriaRows,
 } from '../utils';
 
+const CustomAccordion = ({ title, rows, cols }) => (
+  <Accordion>
+    <AccordionSummary expandIcon={<ExpandMoreIcon />} >
+      {title}
+    </AccordionSummary>
+    <AccordionDetails>
+      <DataGrid
+        rows={rows}
+        columns={cols}
+        disableRowSelectionOnClick
+        disableColumnSelector
+        hideFooter
+        hideFooterPagination
+        hideFooterSelectedRowCount
+      />
+    </AccordionDetails>
+  </Accordion>
+);
+
 // MAIN
 export default function Planet({ incenseArr, materiaArr }) {
   const incenseRows = makeIncenseRows(incenseArr);
@@ -23,38 +42,16 @@ export default function Planet({ incenseArr, materiaArr }) {
 
   return (
     <>
-      <Accordion defaultExpanded>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />} >
-          Incense
-        </AccordionSummary>
-        <AccordionDetails>
-          <DataGrid
-            rows={incenseRows}
-            columns={incenseCols}
-            disableRowSelectionOnClick
-            disableColumnSelector
-            hideFooter
-            hideFooterPagination
-            hideFooterSelectedRowCount
-          />
-        </AccordionDetails>
-      </Accordion>
-      <Accordion>
-        <AccordionSummary expandIcon={<ExpandMoreIcon />} >
-          Materia
-        </AccordionSummary>
-        <AccordionDetails>
-          <DataGrid
-            rows={materiaRows}
-            columns={materiaCols}
-            disableRowSelectionOnClick
-            disableColumnSelector
-            hideFooter
-            hideFooterPagination
-            hideFooterSelectedRowCount
-          />
-        </AccordionDetails>
-      </Accordion>
+      <CustomAccordion
+        title="Incense"
+        rows={incenseRows}
+        cols={incenseCols}
+      />
+      <CustomAccordion
+        title="Materia"
+        rows={materiaRows}
+        cols={materiaCols}
+      />
     </>
   );
 }
